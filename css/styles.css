@@ -1,0 +1,129 @@
+@import "reset.css";
+
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+/* =====HEADER===== */
+header {
+  height: 100px;
+  background-color: #ff9c00;
+}
+header .header-logo {
+  height: 50%;
+  text-align: center;
+}
+header .header-logo .hamburger {
+  position: absolute;
+  left: 10px;
+}
+header .header-logo .info {
+  position: absolute;
+  right: 10px;
+}
+header .header-search {
+  height: 50px;
+  overflow: hidden;
+}
+header .header-search input {
+  width: calc(100% - 50px);
+  height: 100%;
+  border: 5px solid #ea8f00;
+  float: left;
+}
+header .header-search img {
+  height: 100%;
+  float: left;
+}
+
+/* =====lnb===== */
+.lnb {
+  margin: 10px 0;
+}
+.lnb ul {
+  overflow: hidden;
+}
+.lnb ul li {
+  width: 20%;
+  height: 30px;
+  text-align: center;
+  float: left;
+  line-height: 30px;
+  font-size: 1.2rem;
+  border-right: 1px solid #ccc;
+}
+
+/* =====SECTION===== */
+section .flexbox {
+  display: flex;
+  flex-wrap: wrap;
+}
+section .section-img {
+  width: 50%;
+  height: 135px;
+  border: 2px solid #ccc;
+}
+section .section-img img {
+  width: 100%;
+  height: inherit;
+}
+
+section .section-content1 {
+  margin-top: 10px;
+  overflow: hidden;
+}
+section .section-content1 ul li {
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+section .section-content2 {
+  margin-top: 7px;
+}
+section .section-content2 ul {
+  margin: 15px;
+}
+section .section-content2 ul li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+section .section-content2 ul li a {
+  display: flex;
+  align-items: center;
+}
+.text-wrap {
+  margin-left: 10px;
+}
+.text-wrap .title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #0d5a9c;
+}
+.text-wrap .text-box {
+  width: 500px;
+  margin-top: 10px;
+}
+.text-wrap .text-box .text-box__text {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  color: #464646;
+}
+
+
+/* =====FOOTER===== */
+footer .footer-logo {
+  margin-bottom: 15px;
+}
+footer .footer-logo,
+footer address {
+  text-align: center;
+}

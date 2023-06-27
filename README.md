@@ -9,4 +9,4 @@
 
 ## References
 - [Don't use flexbox for overall page layout](https://jakearchibald.com/2014/dont-use-flexbox-for-page-layout/)
-
+- https://stackoverflow.com/questions/17779293/css-text-overflow-ellipsis-not-working
